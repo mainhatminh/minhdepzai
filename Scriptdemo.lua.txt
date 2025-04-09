@@ -1,0 +1,153 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = " I LOVE THUY DUONG",
+         Animation =" minhdepzai"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=94389193777985",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Script fix lag"})
+     local Tab3o = MakeTab({Name = "Hop sever"})
+     local Tab4o = MakeTab({Name = "Script pvp auto bounty"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "vxeze hud",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
+    AddButton(Tab1o, {    
+ Name = "lion hud",  
+  Callback = function()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().team = "Pirates" -- Marines
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+AddButton(Tab1o, {  
+   Name = "xeter hud",   
+ Callback = function()
+ getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+AddButton(Tab1o, {   
+  Name = "premium up v4 siêu phê",  
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+AddButton(Tab2o, {    
+ Name = "turbolite ",   
+ Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+ AddButton(Tab2o, {  
+   Name = "ak gaming ",  
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AKGAMING-FIXLAG"))()
+AddButton(Tab3o, {     Name = "zis roblox",   
+ Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))() 
+ AddButton(Tab4o, {    
+ Name = "Vexze hud auto bounty",  
+  Callback = function()
+getgenv().Config = {
+["Team"] = "Pirates",
+["Safe Health"] = {40, 50},
+["Skip"] = {
+["Fruit"] = {["Enabled"] = true,
+["Avoid Fruit"] = {
+"Portal-Portal",
+"Kitsune-Kitsune"
+}
+},
+["Avoid V4"] = true
+},
+["Hunt Method"] = {
+["Use Move Predict"] = true,
+["Hit and Run"] = true
+},
+["Spam All Skill On V4"] = {
+["Enabled"] = true,
+["Weapons"] = {"Melee", "Gun", "Sword", "Blox Fruit"}
+},
+["Chat"] = {
+["Enabled"] = true,
+["Message"] = {"I LOVE THUY DUONG"}
+},
+["Custom Y Run"] = {
+["Enabled"] = false,
+["Y Run"] = 100
+},
+["Misc"] = {
+["Auto Store Fruit"] = true,
+["Auto Random Fruit"] = true,
+["White Screen"] = false,
+["Click Delay"] = 0.1,
+},
+["Items"] = {["Use"] = {"Melee", "", "Sword"},
+["Melee"] = {
+["Enable"] = true,
+["Skills"] = {
+["Z"] = {["Enable"] = true, ["HoldTime"] = 1.5},
+["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+["C"] = {["Enable"] = true, ["HoldTime"] = 0.1}
+}
+},
+["Blox Fruit"] = {
+["Enable"] = false,
+["Skills"] = {
+["Z"] = {["Enable"] = true, ["HoldTime"] = 1.2},
+["X"] = {["Enable"] = true, ["HoldTime"] = 0},
+["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+["V"] = {["Enable"] = false, ["HoldTime"] = 0},
+["F"] = {["Enable"] = false, ["HoldTime"] = 0}
+}
+},
+["Sword"] = {
+["Enable"] = true,
+["Skills"] = {
+["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+["X"] = {["Enable"] = true, ["HoldTime"] = 0.1}
+}
+},
+["Gun"] = {
+["Enable"] = false,
+["Skills"] = {
+["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+["X"] = {["Enable"] = true, ["HoldTime"] = 0.1}
+}
+}
+}
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubAutoBounty"))()
+local Tab4o = MakeTab({Name = "Chờ mình update thêm nhà 🥰🥰"})
